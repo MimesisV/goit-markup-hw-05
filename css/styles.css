@@ -831,12 +831,13 @@ button {
     color: #8e8f99;
 }
 
-.modal-form-checkbox-container {
+.modal-form-checkbox-own-container {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
     height: 16px;
+    margin-right: 8px;
 
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
@@ -850,7 +851,7 @@ button {
 
 .modal-form-checkbox-input:checked + 
 .modal-form-checkbox-label > 
-.modal-form-checkbox-container {
+.modal-form-checkbox-own-container {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -885,6 +886,7 @@ button {
 
 .modal-form-button:focus, 
 .modal-form-button:hover {
+    
     outline: transparent;
     background-color: #404BBF;
 }
