@@ -861,6 +861,8 @@ button {
 }
 
 .modal-form-button {
+    display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     padding: 16px 32px;
