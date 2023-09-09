@@ -839,6 +839,7 @@ button {
     height: 16px;
     margin-right: 8px;
 
+    cursor: pointer;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     fill: transparent;
@@ -853,8 +854,8 @@ button {
 .modal-form-checkbox-label > 
 .modal-form-checkbox-own-container {
     background-color: #404bbf;
-    border: none;
     fill: #F4F4FD;
+    border: none;
 }
 
 .modal-form-checkbox-link {
